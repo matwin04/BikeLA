@@ -1,8 +1,9 @@
 name = "bts-lax-map"
-main = "index.js"          # your Worker entry file (if you have Worker JS)
+type = "javascript"
 compatibility_date = "2025-10-21"
 
 [build]
 command = "npm run build"
+
 [build.upload]
 dir = "dist"
